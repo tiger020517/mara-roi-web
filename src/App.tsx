@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Shop from './pages/Shop';
 import Ministry from './pages/Ministry';
 import Login from './pages/Login';
+import Cart from './pages/Cart'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/shop" element={<Shop />} />
             <Route path="/ministry" element={<Ministry />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/cart" element={<Cart />} />
             <Route path="/admin" element={<div>관리자페이지</div>} />
           </Route>
         </Routes>
